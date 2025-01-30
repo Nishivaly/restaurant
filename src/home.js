@@ -12,8 +12,5 @@ export default function buildHome(content) {
     home.appendChild(title);
     home.appendChild(description);
 
-    while (content.firstChild) {
-        content.removeChild(content.firstChild);
-    }
     content.appendChild(home);
 }

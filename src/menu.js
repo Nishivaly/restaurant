@@ -12,8 +12,5 @@ export default function buildMenu(content) {
     menu.appendChild(title);
     menu.appendChild(description);
     
-    while (content.firstChild) {
-        content.removeChild(content.firstChild);
-    }
     content.appendChild(menu);
 }

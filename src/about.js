@@ -11,9 +11,6 @@ export default function buildabout(content) {
 
     about.appendChild(title);
     about.appendChild(description);
-    
-    while (content.firstChild) {
-        content.removeChild(content.firstChild);
-    }
+
     content.appendChild(about);
 }
