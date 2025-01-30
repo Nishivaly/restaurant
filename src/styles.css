@@ -1,0 +1,20 @@
+@import url(./reset.css);
+
+body {
+    font-size: 1.6rem;
+    display: flex;
+    flex-direction: column;
+    padding: 2.0rem;
+    align-items: center;
+    height: 100vh;
+    background-color: gray;
+    gap: 1rem;
+}
+
+#home {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 2px white solid;
+    padding: 1rem
+}
